@@ -47,6 +47,10 @@
       text-align: center;
       width: 242px;
 
+      &::after {
+        color: colors.$secondary-blue;
+      }
+
       &:nth-child(1)::after {
         content: "\2656";
         font-size: 2rem;

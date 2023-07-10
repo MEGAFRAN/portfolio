@@ -19,6 +19,7 @@ const FeedbackForm = () => {
   return (
     <div className={styles.container}>
       <h2>¿Que quieres ver o mejorar en la aplicación?</h2>
+      <p>Envia tu opinion y lo añadiremos a la aplicación</p>
       <form onSubmit={handleSubmit} aria-label="Feedback Form">
         <label htmlFor="message">
           <textarea

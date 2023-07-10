@@ -4,7 +4,8 @@
 
 .container {
   align-items: center;
-  background: colors.$primary-white;
+  background-color: colors.$primary-white;
+  border: solid 2px colors.$secondary-blue;
   box-shadow: 0 0 10px colors.$gray9;
   display: flex;
   height: 65px;

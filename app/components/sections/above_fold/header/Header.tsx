@@ -25,9 +25,7 @@ const Header = ({ title, text, buttonText, sectionToScroll, withMagicLink }: Hea
         {title[0]} <em>{title[1]}</em> {title[2]}
       </h1>
 
-      <p>
-        {text[0]},<em> {text[1]}</em>
-      </p>
+      <p>{text[0]}</p>
 
       <div className={styles.cta_wrapper}>
         {withMagicLink ? (

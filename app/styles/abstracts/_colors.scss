@@ -1,6 +1,7 @@
 /* New colors */
 
-$primary-black: #524a4e;
+$primary-black: rgb(63, 48, 56);
+$secondary-black: black;
 $gray1: #2c2c2e;
 $gray2: #3a3a3c;
 $gray3: #48484a;
@@ -21,13 +22,12 @@ $primary-mint: #00c7be;
 $dark-mint: #0c817b;
 $primary-green: #34c759;
 $dark-green: #248a3d;
-$primary-pink: #ffc0d3;
-$secondary-blue: #0cecdd;
+$primary-pink: rgb(255, 90, 176);
+$secondary-blue: rgb(77, 244, 255);
 $primary-beige: #fdeff4;
 $secondary-red: #ff5c8d;
 
 /* Old colors */
-$secondary-black: #000000cc;
 $terciary-black: #f5f5f50a;
 $cuaternary-black: #322f3d;
 $primary-gray: #f5f5f5;
