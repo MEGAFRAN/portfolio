@@ -14,10 +14,8 @@ const Header = ({ title, text, buttonText, sectionToScroll, withMagicLink }: Hea
         withToogleMenu={false}
         withLanguageToggle={false}
         withLoginButton={false}
-        withContactButton={false}
+        withContactButton={true}
         withHomeButton={false}
-        withDownloadAndroidButton={true}
-        withDownloadIosButton={true}
         sectionToScroll={sectionToScroll}
       />
 
@@ -32,16 +30,7 @@ const Header = ({ title, text, buttonText, sectionToScroll, withMagicLink }: Hea
           <LoginForm />
         ) : (
           <div className={styles.buttons}>
-            <Button
-              text="Descargar para Android"
-              style="cta"
-              linkTo="https://play.google.com/store/apps"
-            />
-            <Button
-              text="Descargar para Iphone"
-              style="cta"
-              linkTo="https://www.apple.com/co/app-store/"
-            />
+            <Button text="Contact" style="cta" scrollToSection={"#contact-form"} />
           </div>
         )}
       </div>

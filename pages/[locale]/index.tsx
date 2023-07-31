@@ -7,7 +7,6 @@ import SectionDottedCard from "../../app/components/sections/dotted_card/Section
 import SectionUnderlineList from "../../app/components/sections/underline_list/SectionUnderlineList"
 import { getStaticPaths, makeStaticProps } from "../../lib/getStatic"
 import FeedbackForm from "../../app/components/feedback/FeedbackForm"
-import Footer from "../../app/components/footer/Footer"
 
 const Home: NextPage = () => {
   const { t } = useTranslation(["pages/index"])
@@ -26,22 +25,21 @@ const Home: NextPage = () => {
         title={t("headerTitle", { returnObjects: true })}
         text={t("headerText", { returnObjects: true })}
         buttonText={t("headerButtons", { returnObjects: true })}
-        sectionToScroll={t("sectionContact") as string}
+        sectionToScroll={"#contact-form"}
       />
       <SectionUnderlineList
         listData={t("listData2", { returnObjects: true })}
-        title={t("benefitsForYourBusiness")}
+        title={t("careers")}
         buttonText={t("requestService")}
         sectionToScroll={t("sectionContact") as string}
       />
       <SectionDottedCard
         listData={t("listData3", { returnObjects: true })}
-        title={t("whatDoWeDo")}
+        title={t("softSkills")}
         buttonText={t("requestService")}
         sectionToScroll={t("sectionContact") as string}
       />
       <FeedbackForm />
-      <Footer />
     </>
   )
 }

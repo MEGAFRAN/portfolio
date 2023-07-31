@@ -3,10 +3,20 @@
   "metatagTitle": "Simplifica la salud de tus hijos - Pediagenda",
   "metatagLocale": "en_CO",
   "metatagUrl": "https://pediagenda.com",
-  "headerTitle": ["Salud Infantil Simple"],
-  "headerText": ["Herramientas para cuidar la salud de tus hijos"],
-  "headerButtons": ["Descargar", "Inicio", "Contacto"],
-  "listData": ["Soluciones de inteligencia artifical para negocios"],
+  "headerTitle": [
+    "Francisco Cruz"
+  ],
+  "headerText": [
+    "Frontend developer / AEM developer / Analytics engineer / Cloud engineer / Medical doctor / Poker player"
+  ],
+  "headerButtons": [
+    "Descargar",
+    "Inicio",
+    "Contacto"
+  ],
+  "listData": [
+    "Soluciones de inteligencia artifical para negocios"
+  ],
   "listData2": [
     "Calculadora dosis medicamentos",
     "Guia primeros auxilios",
@@ -22,11 +32,13 @@
     "Datos personales seguros",
     "Con amor"
   ],
-  "listData4": ["Contactanos", "Analizamos tu requerimiento", "Te entregamos tu solucion"],
-
+  "listData4": [
+    "Contactanos",
+    "Analizamos tu requerimiento",
+    "Te entregamos tu solucion"
+  ],
   "benefitsForYourBusiness": "Herramientas para ti y tus hijos",
   "contactUs": "Contáctanos",
-
   "iWantMySolution": "quiero mi solucion",
   "requestService": "solicitar servicio",
   "sectionContact": "#section-contact",

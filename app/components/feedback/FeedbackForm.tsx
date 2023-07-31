@@ -17,16 +17,15 @@ const FeedbackForm = () => {
   }
 
   return (
-    <div className={styles.container}>
-      <h2>¿Que quieres ver o mejorar en la aplicación?</h2>
-      <p>Envia tu opinion y lo añadiremos a la aplicación</p>
+    <div id="contact-form" className={styles.container}>
+      <h2>Let&apos;s talk</h2>
       <form onSubmit={handleSubmit} aria-label="Feedback Form">
         <label htmlFor="message">
           <textarea
             name="message"
             id="message"
             required
-            placeholder="Quiero..."
+            placeholder="Write your message"
             onInvalid={(event) => handleValidation(event, t("pleaseFillThisField"))}
             onInput={(event) => handleInput(event)}
             onChange={(event) => setFeedbackText(event.target.value)}
@@ -34,7 +33,7 @@ const FeedbackForm = () => {
           ></textarea>
         </label>
         <button className={styles.send} type="submit">
-          Enviar opinion
+          Send message
         </button>
       </form>
     </div>
