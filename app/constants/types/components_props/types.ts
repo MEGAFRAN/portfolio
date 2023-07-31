@@ -132,8 +132,9 @@ export interface NavbarProps {
 
 export interface SectionTitleListProps {
   title: string
-  description: string[]
-  id: string
+  listData: string[]
+  text?: string
+  id?: string
 }
 
 export interface LandingPageProps extends NavbarProps, FormProps, HeadingProps {
