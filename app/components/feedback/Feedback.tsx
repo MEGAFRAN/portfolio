@@ -20,7 +20,7 @@ const Feedback = () => {
 
     gtmEvents.sendFeedbackTextAnalysis({ isPositiveFeedback, feedbackText })
     setIsModalOpen(false)
-    sendFeedbackMessage(feedbackText, isPositiveFeedback)
+    sendFeedbackMessage(feedbackText)
   }
 
   return (
