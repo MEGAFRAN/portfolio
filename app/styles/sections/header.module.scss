@@ -2,7 +2,7 @@
 
 .container {
   align-items: center;
-  background-color: colors.$primary-white;
+  background-color: colors.$dark-purple;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -24,7 +24,7 @@
   }
 
   p {
-    color: colors.$primary-black;
+    color: colors.$primary-fuchsia;
     font-size: clamp(1.2rem, 5vw, 1.6rem);
 
     em {

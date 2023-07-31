@@ -4,9 +4,8 @@
 
 .container {
   align-items: center;
-  background-color: colors.$primary-white;
-  border: solid 2px colors.$secondary-blue;
-  box-shadow: 0 0 10px colors.$gray9;
+  background-color: colors.$dark-purple;
+  box-shadow: -5px -1px 34px colors.$primary-fuchsia;
   display: flex;
   height: 65px;
   justify-content: space-between;
@@ -24,26 +23,10 @@
   button {
     @include mixins.cta-button-appearance();
 
-    animation: color-change 8s infinite;
-
     &:hover {
       animation: none;
 
       @include mixins.cta-button-hover();
-    }
-
-    @keyframes color-change {
-      0% {
-        background-color: colors.$primary-pink;
-      }
-
-      50% {
-        background-color: colors.$secondary-red;
-      }
-
-      100% {
-        background-color: colors.$primary-pink;
-      }
     }
   }
 

@@ -2,8 +2,8 @@
 @use "../base/typography";
 
 .container {
-  background-color: colors.$primary-white;
-  border: 3px solid colors.$gray9;
+  background-color: transparent;
+  border: 3px solid colors.$primary-fuchsia;
   border-radius: 38px;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   padding: clamp(0px, 5vw, 40px);
 
   h2 {
-    color: colors.$primary-black;
+    color: colors.$primary-white;
     padding-bottom: 30px;
     text-align: center;
   }
@@ -24,6 +24,7 @@
     flex-wrap: wrap;
     font-family: typography.$secondary-font-family;
     font-size: clamp(1rem, 4vw, 1.1rem);
+    font-weight: bold;
     justify-content: space-around;
     list-style: none;
     padding: 0;
@@ -32,8 +33,7 @@
 
     li {
       align-items: center;
-      background-color: colors.$primary-white;
-      border-bottom: 2px solid colors.$secondary-blue;
+      background-color: colors.$primary-yellow;
       border-radius: 15px;
       color: colors.$primary-black;
       display: flex;

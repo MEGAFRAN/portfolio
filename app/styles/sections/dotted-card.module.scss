@@ -12,7 +12,7 @@
   padding: 40px;
 
   h2 {
-    color: colors.$primary-black;
+    color: colors.$primary-white;
     padding-bottom: 30px;
     text-align: center;
   }
@@ -38,7 +38,7 @@
       align-items: center;
       border: dashed 4px colors.$gray9;
       border-radius: 19px;
-      color: colors.$primary-black;
+      color: colors.$primary-white;
       display: flex;
       flex-direction: column;
       height: 122px;
@@ -48,7 +48,7 @@
       width: 242px;
 
       &::after {
-        color: colors.$secondary-blue;
+        color: colors.$primary-fuchsia;
       }
 
       &:nth-child(1)::after {

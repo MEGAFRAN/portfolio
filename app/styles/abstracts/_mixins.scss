@@ -2,16 +2,17 @@
 @use "./animations";
 
 @mixin cta-button-hover {
-  background: colors.$secondary-blue;
+  background: colors.$primary-fuchsia;
   color: colors.$secondary-black;
   cursor: pointer;
 }
 
 @mixin cta-button-appearance {
-  background-color: colors.$primary-pink;
+  background-color: colors.$primary-yellow;
   border: none;
   border-radius: 24px;
   color: colors.$secondary-black;
+  font-weight: bold;
   padding: 10px 14px;
   pointer-events: auto;
   transition: animations.$regular-transition;
@@ -22,7 +23,7 @@
     color: colors.$primary-white;
 
     &::before {
-      color: colors.$primary-pink;
+      color: colors.$primary-yellow;
     }
   }
 }
@@ -34,12 +35,12 @@
 }
 
 @mixin card-post-hover {
-  border-color: colors.$primary-pink;
+  border-color: colors.$primary-yellow;
   box-shadow: 0 0 40px -10px black;
 }
 
 @mixin linkcard-post-hover {
-  color: colors.$primary-pink;
+  color: colors.$primary-yellow;
 }
 
 @mixin field-validation {
@@ -47,7 +48,7 @@
     outline-color: colors.$secondary-gray;
 
     &:invalid {
-      outline-color: colors.$primary-pink;
+      outline-color: colors.$primary-yellow;
     }
   }
 }
