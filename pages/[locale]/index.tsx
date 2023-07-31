@@ -8,6 +8,7 @@ import SectionUnderlineList from "../../app/components/sections/underline_list/S
 import { getStaticPaths, makeStaticProps } from "../../lib/getStatic"
 import FeedbackForm from "../../app/components/feedback/FeedbackForm"
 import SectionTitleList from "../../app/components/sections/title_list/SectionTitleList"
+import ChatBotToggle from "../../app/components/chatbot_toogle/ChatBotToogle"
 
 const Home: NextPage = () => {
   const { t } = useTranslation(["pages/index"])
@@ -117,6 +118,7 @@ const Home: NextPage = () => {
         text="At friends meetings, i bring the poker game and everyone enjoys. Sometimes i play online with real money"
       />
       <FeedbackForm />
+      <ChatBotToggle />
     </>
   )
 }

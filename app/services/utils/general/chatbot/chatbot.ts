@@ -12,6 +12,7 @@ export const getPageText = () => {
     a: [],
     p: [],
     span: [],
+    li: [],
   }
 
   for (let i = 0; i < metaTags.length; i++) {
@@ -26,7 +27,7 @@ export const getPageText = () => {
     tagGroups.title.push(titleTag?.textContent?.trim() || "")
   }
 
-  const textTags = document.querySelectorAll("p, span, h1, h2, h3, a")
+  const textTags = document.querySelectorAll("p, span, h1, h2, h3, a, li")
   for (let i = 0; i < textTags.length; i++) {
     const tag = textTags[i].tagName.toLowerCase()
     const textContent = textTags[i]?.textContent?.trim() || ""
@@ -38,9 +39,9 @@ export const getPageText = () => {
   return JSON.stringify(tagGroups)
 }
 
-export const initialContext = `Your are the virtual assistant inside clubtal website, you will follow the conversation in the same language as the user, 
+export const initialContext = `Your are the virtual assistant inside francisco cruz website, you will follow the conversation in the same language as the user, 
     your conversation style will be polite and helpful, your main objective will be make the user fill the contact form, if user ask for
-    contact information, share this email: info@clubtal.com. 
+    contact information, share this email: antoniocruz19@gmail.com 
     To understand the website where you are, following this text will be the website information,
     that information will be as a single JSON.stringify object, use it for your context, it will have the following properties: 
     metaDescription: [],
@@ -50,5 +51,6 @@ export const initialContext = `Your are the virtual assistant inside clubtal web
     h3: [],
     a: [],
     p: [],
-    span: [] .
+    span: []
+    li: [] .
     The website data will be wrapped inside this sign structure """ website JSON.stringify object data """, after that data, you will read the user input.`
