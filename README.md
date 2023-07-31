@@ -1,6 +1,6 @@
 ## Que es este proyecto?
 
-PEDIAGENDA es una aplicación movil que simplifica el cuidado de los hijos: www.pediagenda.com
+Sitio web personal de Francisco Cruz
 
 ## Stack tecnologico usado
 
