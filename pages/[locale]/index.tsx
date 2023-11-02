@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <Head>
         <PageHead
           description={t("metatagDescription")}
-          title={t("metatagTitle")}
+          title={"Francisco cruz website"}
           locale={t("metatagLocale")}
           url={t("metatagUrl")}
         />

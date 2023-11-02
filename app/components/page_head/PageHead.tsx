@@ -2,7 +2,7 @@ import { pageHeadProps } from "../../constants/types/components_props/types"
 
 const PageHead = ({
   description,
-  title,
+  title = "Francisco cruz website",
   locale,
   url,
   favicon = "/favicon.ico",
@@ -13,10 +13,10 @@ const PageHead = ({
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-    <title>{title}</title>
+    <title>{title ?? "Francisco cruz website"}</title>
     <meta property="og:locale" content={locale} />
     <meta property="og:type" content="WebPage" />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={title ?? "Francisco cruz website"} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={favicon} />
     <meta property="og:site_name" content={name} />
